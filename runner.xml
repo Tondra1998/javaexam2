@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "JCPenney test suite">
+    <listeners>
+        <listener class-name="Repport"></listener>
+    </listeners>
+    <test name="abc">
+        <groups>
+            
+        </groups>
+    </test>
+    <test name = "UI Tests">
+        <classes>
+            <class name = "TestJCpenneyCartPage"></class>
+        </classes>
+    </test>
+</suite>
